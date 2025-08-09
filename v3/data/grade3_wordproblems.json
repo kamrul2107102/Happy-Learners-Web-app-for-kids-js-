@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "grade": 3,
+    "subjectId": "wordproblems",
+    "label": "Word Problems & Fractions 🧮",
+    "description": "Simple word problems and intro to fractions."
+  },
+  "lessons": [
+    {
+      "id": "g3w_l1",
+      "title": "Simple word problem",
+      "content": "<p>Mia had 12 apples. She gave 4 to her friend. How many left?</p>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "How many apples left?",
+          "options": ["6", "8", "9"],
+          "answer": "8"
+        }
+      ]
+    },
+    {
+      "id": "g3w_l2",
+      "title": "Intro to fractions",
+      "content": "<p>1/2 of a pizza is eaten. What fraction remains?</p>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "What fraction remains?",
+          "options": ["1/2", "1/3", "1/4"],
+          "answer": "1/2"
+        }
+      ]
+    },
+    {
+      "id": "g3w_l3",
+      "title": "More word problems",
+      "content": "<p>Tom has 20 candies. He eats 5 and gives 3 to his sister. How many left?</p>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "How many candies left?",
+          "options": ["10", "12", "15"],
+          "answer": "12"
+        }
+      ]
+    },
+    {
+      "id": "g3w_l4",
+      "title": "Fractions in real life",
+      "content": "<p>If a cake is cut into 4 equal pieces and 1 piece is eaten, what fraction remains?</p>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "What fraction remains?",
+          "options": ["1/4", "3/4", "1/2"],
+          "answer": "3/4"
+        }
+      ]
+    
+    },
+    {
+      "id": "g3w_l5",
+      "title": "Combining word problems and fractions",
+      "content": "<p>Sarah has 10 oranges. She eats 2 and gives 1/2 of the rest to her friend. How many left?</p>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "How many oranges left?",
+          "options": ["4", "5", "6"],
+          "answer": "4"
+        }
+
+      ]
+    },
+    {
+      "id": "g3w_l6",
+      "title": "Understanding halves and quarters",
+      "content": "<p>If a chocolate bar is divided into 4 equal pieces and you eat 1 piece, what fraction is left?</p>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "What fraction is left?",
+          "options": ["1/4", "3/4", "1/2"],
+          "answer": "3/4"
+        }
+      ]
+    }
+  ]
+}

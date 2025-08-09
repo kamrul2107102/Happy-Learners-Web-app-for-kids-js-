@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "grade": 2,
+    "subjectId": "reading",
+    "label": "Reading & Short Stories 📖",
+    "description": "Short stories and questions."
+  },
+  "lessons": [
+    {
+      "id": "g2r_l1",
+      "title": "Short story: Lost Puppy",
+      "content": "<p>Sam found a lost puppy. He gave the puppy water and a cozy blanket. Sam found the puppy's owner and the puppy was happy.</p>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "Who found the puppy?",
+          "options": ["Sam", "Anna", "Mike"],
+          "answer": "Sam"
+        }
+      ]
+    },
+    {
+      "id": "g2r_l2",
+      "title": "Simple comprehension",
+      "content": "<p>Lucy read a book about space. She learned about planets and stars.</p>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "What did Lucy learn about?",
+          "options": ["Animals", "Planets", "Cars"],
+          "answer": "Planets"
+        }
+      ]
+    },
+    {
+      "id": "g2r_l3",
+      "title": "Story: The Picnic",
+      "content": "<p>Emma and her friends went on a picnic. They ate sandwiches and played games. It was a fun day!</p>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "What did they eat at the picnic?",
+          "options": ["Pizza", "Sandwiches", "Ice cream"],
+          "answer": "Sandwiches"
+        }
+      ]
+    },
+    {
+      "id": "g2r_l4",
+      "title": "Reading practice",
+      "content": "<p>Read the story and answer the questions.</p>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "What is the main idea of the story?",
+          "options": ["It was sunny", "They had fun", "They were hungry"],
+          "answer": "They had fun"
+        }
+      ]
+    },
+    {
+      "id": "g2r_l5",
+      "title": "Story: The Lost Cat",
+      "content": "<p>Tommy lost his cat. He looked everywhere. Finally, he found her under the bed.</p>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "Where did Tommy find his cat?",
+          "options": ["In the garden", "Under the bed", "In the kitchen"],
+          "answer": "Under the bed"
+        }
+      ]
+    }
+  ]
+}

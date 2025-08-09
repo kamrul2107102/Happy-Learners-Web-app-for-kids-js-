@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "grade": 3,
+    "subjectId": "geography",
+    "label": "Geography Basics 🌎",
+    "description": "Maps, continents and countries."
+  },
+  "lessons": [
+    {
+      "id": "g3geo_l1",
+      "title": "Continents",
+      "content": "<div>There are 7 continents: Africa, Antarctica, Asia, Europe, North America, South America, Australia.</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "Which continent is the largest?",
+          "options": ["Asia", "Europe", "Antarctica"],
+          "answer": "Asia"
+        }
+      ]
+    },
+    {
+      "id": "g3geo_l2",
+      "title": "Countries and Capitals",
+      "content": "<div>Each country has a capital city. For example, the capital of France is Paris.</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "What is the capital of Japan?",
+          "options": ["Tokyo", "Seoul", "Beijing"],
+          "answer": "Tokyo"
+        }
+      ]
+    },
+    {
+      "id": "g3geo_l3",
+      "title": "Maps and Directions",
+      "content": "<div>Maps show locations and help us find directions.</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "What does a compass rose show?",
+          "options": ["Directions", "Weather", "Population"],
+          "answer": "Directions"
+        }
+      ]
+    },
+    {
+      "id": "g3geo_l4",
+      "title": "Landforms",
+      "content": "<div>Mountains, rivers, and deserts are different landforms on Earth.</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "Which is a type of landform?",
+          "options": ["Ocean", "Mountain", "City"],
+          "answer": "Mountain"
+        }
+      ]
+    },
+    {
+      "id": "g3geo_l5",
+      "title": "Weather and Climate",
+      "content": "<div>Weather is daily conditions like rain or sun. Climate is the average weather over time.</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "What is climate?",
+          "options": ["Daily weather", "Average weather over years", "Current temperature"],
+          "answer": "Average weather over years"
+        }
+      ]
+    },
+    {
+      "id": "g3geo_l6",
+      "title": "Natural Resources",
+      "content": "<div>Natural resources are materials we get from the Earth, like water, minerals, and forests.</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "Which is a natural resource?",
+          "options": ["Plastic", "Water", "Concrete"],
+          "answer": "Water"
+        }
+      ]
+    }
+    ,
+    {
+      "id": "g3geo_l7",
+      "title": "Cultural Geography",
+      "content": "<div>Cultural geography studies how people live, their traditions, and how they use land.</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "What does cultural geography focus on?",
+          "options": ["Weather patterns", "People's cultures and traditions", "Animal habitats"],
+          "answer": "People's cultures and traditions"
+        }
+      ]
+    },
+    {
+      "id": "g3geo_l8",
+      "title": "Environmental Awareness",
+      "content": "<div>Understanding how to protect our environment and natural resources.</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "Why is it important to protect the environment?",
+          "options": ["To keep it clean for future generations", "To make more buildings", "To increase pollution"],
+          "answer": "To keep it clean for future generations"
+        }
+      ]
+    },
+    {
+      "id": "g3geo_l9",
+      "title": "Global Issues",
+      "content": "<div>Learning about global issues like climate change, poverty, and migration.</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "What is a major global issue?",
+          "options": ["Local weather", "Climate change", "School schedules"],
+          "answer": "Climate change"
+        }
+      ]
+    }
+  ]
+}
+

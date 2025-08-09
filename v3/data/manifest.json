@@ -1,0 +1,20 @@
+{
+    "files": [
+      {"path":"data/grade1_numbers.json","grade":1,"subjectId":"numbers","label":"Numbers 1-100 🔢"},
+      {"path":"data/grade1_alphabet.json","grade":1,"subjectId":"alphabet","label":"Alphabet A–Z 📚"},
+      {"path":"data/grade1_math.json","grade":1,"subjectId":"basic_math","label":"Basic Addition & Subtraction ➕➖"},
+      {"path":"data/grade1_shapes.json","grade":1,"subjectId":"shapes","label":"Shapes & Colors 🔺🔵"},
+  
+      {"path":"data/grade2_math.json","grade":2,"subjectId":"math","label":"Math (3-digit & Times) ✖️"},
+      {"path":"data/grade2_reading.json","grade":2,"subjectId":"reading","label":"Reading & Short Stories 📖"},
+      {"path":"data/grade2_grammar.json","grade":2,"subjectId":"grammar","label":"Grammar Basics ✍️"},
+      {"path":"data/grade2_money.json","grade":2,"subjectId":"money","label":"Money & Counting 💵"},
+      {"path":"data/grade2_time.json","grade":2,"subjectId":"telling_time","label":"Telling Time ⏰"},
+  
+      {"path":"data/grade3_wordproblems.json","grade":3,"subjectId":"wordproblems","label":"Word Problems & Fractions 🧮"},
+      {"path":"data/grade3_reading.json","grade":3,"subjectId":"reading_comp","label":"Reading Comprehension 📚"},
+      {"path":"data/grade3_geography.json","grade":3,"subjectId":"geography","label":"Geography Basics 🌎"},
+      {"path":"data/grade3_science.json","grade":3,"subjectId":"science","label":"Basic Science 🔬"}
+    ]
+  }
+  

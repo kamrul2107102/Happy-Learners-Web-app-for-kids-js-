@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "grade": 2,
+    "subjectId": "grammar",
+    "label": "Grammar Basics ✍️",
+    "description": "Nouns, verbs, and simple sentences."
+  },
+  "lessons": [
+    {
+      "id": "g2g_l1",
+      "title": "Nouns & Verbs",
+      "content": "<div>Nouns are people, places, things. Verbs are actions (run, jump).</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "Which is a verb?",
+          "options": ["Dog", "Run", "Table"],
+          "answer": "Run"
+        }
+      ]
+    },
+    {
+      "id": "g2g_l2",
+      "title": "Simple Sentences",
+      "content": "<div>Make short sentences using nouns and verbs.</div>",
+      "quiz": [
+        {
+          "type": "ordering",
+          "question": "Order the words to make a sentence",
+          "items": ["ball", "The", "rolls"],
+          "answerOrder": ["The", "ball", "rolls"]
+        }
+      ]
+    },
+    {
+      "id": "g2g_l3",
+      "title": "Adjectives",
+      "content": "<div>Adjectives describe nouns (big, small, red).</div>",
+      "quiz": [
+        {
+          "type": "fill_in_the_blank",
+          "question": "The ___ cat is sleeping.",
+          "answer": "big"
+        }
+      ]
+    },
+    {
+      "id": "g2g_l4",
+      "title": "Question Words",
+      "content": "<div>Who, what, where, when, why help us ask questions.</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "What word asks about a person?",
+          "options": ["What", "Who", "Where"],
+          "answer": "Who"
+        }
+      ]
+    },
+    {
+      "id": "g2g_l5",
+      "title": "Punctuation Basics",
+      "content": "<div>Use periods (.) for statements, question marks (?) for questions.</div>",
+      "quiz": [
+        {
+          "type": "true_false",
+          "question": "A question ends with a period.",
+          "answer": false
+        }
+      ]
+    },
+    {
+      "id": "g2g_l6",
+      "title": "Capitalization Rules",
+      "content": "<div>Capitalize the first word of a sentence and names.</div>",
+      "quiz": [
+        {
+          "type": "fill_in_the_blank",
+          "question": "___ is my name.",
+          "answer": "My"
+        }
+      ]
+    },
+    {
+      "id": "g2g_l7",
+      "title": "Conjunctions",
+      "content": "<div>Use 'and', 'but', 'or' to connect ideas.</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "Which word connects two ideas?",
+          "options": ["And", "But", "Or"],
+          "answer": "And"
+        }
+      ]
+    },
+    {
+      "id": "g2g_l8",
+      "title": "Synonyms & Antonyms",
+      "content": "<div>Synonyms are similar words, antonyms are opposite.</div>",
+      "quiz": [
+        {
+          "type": "drag_match",
+          "question": "Match the word with its synonym",
+          "pairs": [
+            { "left": "Happy", "right": "Joyful" },
+            { "left": "Sad", "right": "Unhappy" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "grade": 1,
+    "subjectId": "numbers",
+    "label": "Numbers 1-100 🔢",
+    "description": "Count and recognize numbers."
+  },
+  "lessons": [
+    {
+      "id": "g1n_l1",
+      "title": "Numbers 1–10",
+      "content": "<div style='font-size:40px'>1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ 6️⃣ 7️⃣ 8️⃣ 9️⃣ 🔟</div><div>Tap Next to explore more numbers.</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "What comes after 5?",
+          "options": ["4", "6", "7"],
+          "answer": "6"
+        }
+      ]
+    },
+    {
+      "id": "g1n_l2",
+      "title": "Numbers 11–20",
+      "content": "<div style='font-size:40px'>11 12 13 14 15 16 17 18 19 20</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "15 + 2 = ?",
+          "options": ["16", "17", "18"],
+          "answer": "17"
+        }
+      ]
+    },
+    {
+      "id": "g1n_l3",
+      "title": "Numbers 21–30",
+      "content": "<div style='font-size:40px'>21 22 23 24 25 26 27 28 29 30</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "What is 22 - 2?",
+          "options": ["20", "21", "23"],
+          "answer": "20"
+        }
+      ]
+    },
+    {
+      "id": "g1n_l4",
+      "title": "Numbers 31–40",
+      "content": "<div style='font-size:40px'>31 32 33 34 35 36 37 38 39 40</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "What comes after 39?",
+          "options": ["38", "40", "41"],
+          "answer": "40"
+        }
+      ]
+    },
+    {
+      "id": "g1n_l5",
+      "title": "Numbers 41–50",
+      "content": "<div style='font-size:40px'>41 42 43 44 45 46 47 48 49 50</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "What is 45 + 5?",
+          "options": ["49", "50", "51"],
+          "answer": "50"
+        }
+      ]
+    },
+    {
+      "id": "g1n_l6",
+      "title": "Numbers 51–60",
+      "content": "<div style='font-size:40px'>51 52 53 54 55 56 57 58 59 60</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "What comes before 55?",
+          "options": ["54", "56", "57"],
+          "answer": "54"
+        }
+      ]
+    },
+    {
+      "id": "g1n_l7",
+      "title": "Numbers 61–70",
+      "content": "<div style='font-size:40px'>61 62 63 64 65 66 67 68 69 70</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "What is half of 70?",
+          "options": ["30", "35", "40"],
+          "answer": "35"
+        }
+      ]
+    },
+    {
+      "id": "g1n_l8",
+      "title": "Numbers 71–80",
+      "content": "<div style='font-size:40px'>71 72 73 74 75 76 77 78 79 80</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "What comes after 75?",
+          "options": ["74", "76", "77"],
+          "answer": "76"
+        }
+      ]
+    },
+    {
+      "id": "g1n_l9",
+      "title": "Numbers 81–90",
+      "content": "<div style='font-size:40px'>81 82 83 84 85 86 87 88 89 90</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "What is 88 - 8?",
+          "options": ["80", "81", "82"],
+          "answer": "80"
+        }
+      ]
+    },
+    {
+      "id": "g1n_l10",
+      "title": "Numbers 91–100",
+      "content": "<div style='font-size:40px '>91 92 93 94 95 96 97 98 99 🔟0</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "What comes after 99?",
+          "options": ["98", "100", "101"],
+          "answer": "100"
+        }
+      ]
+    }
+  ]
+}

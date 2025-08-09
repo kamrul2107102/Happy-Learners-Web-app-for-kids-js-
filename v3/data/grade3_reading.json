@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "grade": 3,
+    "subjectId": "reading_comp",
+    "label": "Reading Comprehension 📚",
+    "description": "Longer passages with questions."
+  },
+  "lessons": [
+    {
+      "id": "g3r_l1",
+      "title": "A Day at the Beach",
+      "content": "<p>Tom and Ana went to the beach. They collected shells and built a sandcastle. A seagull flew overhead and they laughed.</p>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "What did they build?",
+          "options": ["A treehouse", "A sandcastle", "A boat"],
+          "answer": "A sandcastle"
+        }
+      ]
+    },
+    {
+      "id": "g3r_l2",
+      "title": "The Lost Kitten",
+      "content": "<p>Lucy found a lost kitten in her garden. She gave it milk and a warm blanket. The kitten purred happily.</p>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "What did Lucy give the kitten?",
+          "options": ["Water", "Milk", "Juice"],
+          "answer": "Milk"
+        }
+      ]
+    },
+    {
+      "id": "g3r_l3",
+      "title": "A Trip to the Zoo",
+      "content": "<p>At the zoo, Max saw lions, tigers, and monkeys. He loved watching the monkeys swing from tree to tree.</p>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "What animals did Max see?",
+          "options": ["Lions and tigers", "Monkeys and bears", "Elephants and giraffes"],
+          "answer": "Lions and tigers"
+        }
+      ]
+    },
+    {
+      "id": "g3r_l4",
+      "title": "Reading Practice: Seasons",
+      "content": "<p>There are four seasons: spring, summer, autumn, and winter. Each season has its own weather and activities.</p>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "How many seasons are there?",
+          "options": ["Three", "Four", "Five"],
+          "answer": "Four"
+        }
+      ]
+    },
+    {
+      "id": "g3r_l5",
+      "title": "Story: The Birthday Party",
+      "content": "<p>Emma's birthday party was fun. She invited her friends, played games, and had cake. Everyone enjoyed the party.</p>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "What did Emma have at her party?",
+          "options": ["Pizza", "Cake", "Ice cream"],
+          "answer": "Cake"
+        }
+      ]
+    },
+    {
+      "id": "g3r_l6",
+      "title": "Story: The Adventure",
+      "content": "<p>Jake and Mia went on an adventure in the forest. They saw birds, rabbits, and even a deer. It was exciting!</p>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "What did they see in the forest?",
+          "options": ["Cars", "Birds and rabbits", "Trains"],
+          "answer": "Birds and rabbits"
+        }
+      ]
+    },
+    {
+      "id": "g3r_l7",
+      "title": "Reading Practice: The Weather",
+      "content": "<p>Weather can be sunny, rainy, cloudy, or snowy. Each type of weather affects what we wear and do.</p>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "What can weather be?",
+          "options": ["Sunny and rainy", "Cloudy and snowy", "All of the above"],
+          "answer": "All of the above"
+        }
+      ]
+    }
+  ]
+}
