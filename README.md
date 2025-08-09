@@ -10,7 +10,7 @@ Happy Learners is a fun, emoji-rich educational app for kids in Grades 1–3. It
 ![Main Menu](./screenshots/main-menu.png)
 
 ### Grade 2 Subjects  
-![Subjects List](./screenshots/grade2-subjects.png)
+![Subjects List](./screenshots/grade1-subjects.png)
 
 ### Lesson View with Progress Bar  
 ![Lesson View](./screenshots/lesson-view.png)
