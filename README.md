@@ -24,4 +24,4 @@ Happy Learners is a fun, emoji-rich educational app for kids in Grades 1–3. It
 
 ---
 
-> To add screenshots, create a `screenshots` folder and upload your images named as above or update the paths accordingly.
+#and many more features
