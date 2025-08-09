@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Happy Learners — Grades 1–3 🎉</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- JSZip for zip export/import (client-side) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="title">📚 <strong>Happy Learners</strong> — Grades 1–3 🎉</div>
+    <div class="header-row">
+      <div class="profile-area" id="profile-area">
+        <!-- profile UI populated by JS -->
+      </div>
+      <div class="header-actions">
+        <button id="open-admin" title="Admin / Upload JSON">⚙️ Admin</button>
+      </div>
+    </div>
+
+    <div class="progress-wrap">
+      <div id="global-progress" class="progress-track" aria-hidden="true">
+        <div id="global-progress-bar" class="progress-bar"></div>
+      </div>
+    </div>
+  </header>
+
+  <main id="app" class="app"></main>
+
+  <footer class="footer">
+    <div>Made with ❤️ — Fun, safe and emoji-friendly.</div>
+    <div class="tiny">Tip: Use the Admin button to upload JSON if opening file:// causes data not to load.</div>
+  </footer>
+
+  <!-- Admin modal (hidden by default) -->
+  <div id="admin-modal" class="modal hidden" role="dialog" aria-modal="true">
+    <div class="modal-card">
+      <button id="close-admin" class="close-btn">✖</button>
+      <h2>Admin / Backup & Update JSON (simulated)</h2>
+
+      <section>
+        <h3>1) Upload JSON files (multi-select)</h3>
+        <input id="admin-upload" type="file" accept=".json,application/json" multiple />
+        <div class="note">Choose one or more JSON files (e.g., files from the /data folder). They will be saved to browser storage and available immediately.</div>
+      </section>
+
+      <section>
+        <h3>2) Edit / Save a JSON file</h3>
+        <label>Filename (e.g. data/grade1_newtopic.json)</label>
+        <input id="admin-filename" placeholder="data/grade1_myfile.json" />
+        <textarea id="admin-json" placeholder='Paste JSON here or load one from "Loaded files" below' rows="10"></textarea>
+        <div class="admin-row">
+          <button id="admin-save" class="btn small">Save JSON</button>
+          <button id="admin-load-samples" class="btn small secondary">Load Provided Sample Manifest & Data</button>
+          <button id="admin-reset" class="btn small danger">Reset (clear stored files)</button>
+        </div>
+      </section>
+
+      <section>
+        <h3> 3) Loaded files</h3>
+        <div id="admin-file-list" class="file-list"></div>
+      </section>
+
+      <section style="margin-top:12px">
+        <h3>4) Backup / Restore</h3>
+        <div class="note">Create a ZIP backup of all uploaded JSON, manifest, and profiles. Download or restore a ZIP here.</div>
+        <div style="display:flex;gap:8px;align-items:center;margin-top:8px">
+          <button id="admin-export-zip" class="btn small">Export ZIP</button>
+          <input id="admin-import-zip" type="file" accept=".zip" />
+          <button id="admin-show-data" class="btn small secondary">Show local data</button>
+        </div>
+      </section>
+      <!-- This will be injected dynamically in subject pages -->
+<button class="btn back-to-subjects" id="back-to-subjects">⬅ Back to Subjects</button>
+
+      <section style="margin-top:12px">
+        <h3>5) Local Storage Manager</h3>
+        <div id="storage-info" class="note">Calculating storage usage...</div>
+        <div style="display:flex;gap:8px;align-items:center;margin-top:8px">
+          <button id="admin-clear-old" class="btn small danger">🧹 Clear Old Profiles</button>
+          <button id="admin-clear-all" class="btn small danger">🗑 Clear All Local Storage</button>
+        </div>
+      </section>
+      
+      <div class="modal-foot">Close when done — changes persist locally in this browser.</div>
+    </div>
+  </div>
+
+  <!-- Confetti canvas -->
+  <canvas id="confetti-canvas" class="confetti-canvas" aria-hidden="true"></canvas>
+
+  <script src="app.js"></script>
+</body>
+</html>

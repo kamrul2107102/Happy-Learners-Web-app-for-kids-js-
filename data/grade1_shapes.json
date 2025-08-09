@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "grade": 1,
+    "subjectId": "shapes",
+    "label": "Shapes & Colors 🔺🔵",
+    "description": "Recognize shapes and colors."
+  },
+  "lessons": [
+    {
+      "id": "g1s_l1",
+      "title": "Common Shapes",
+      "content": "<div style='font-size:20px'>Circle ⚪ Square ⬜ Triangle 🔺 Rectangle ▭</div>",
+      "quiz": [
+        {
+          "type": "drag_match",
+          "question": "Match the shape with its name",
+          "pairs": [
+            { "left": "🔺", "right": "Triangle" },
+            { "left": "⬜", "right": "Square" },
+            { "left": "⚪", "right": "Circle" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g1s_l2",
+      "title": "Colors",
+      "content": "<div style='font-size:20px'>Red 🔴 Green 🟢 Blue 🔵 Yellow 🟡</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "What color is the sky?",
+          "options": ["Red", "Blue", "Green"],
+          "answer": "Blue"
+        }
+      ]
+    },
+    {
+      "id": "g1s_l3",
+      "title": "Shape Combinations",
+      "content": "<div style='font-size:20px'>Circle + Square = ⚪ + ⬜</div>",
+      "quiz": [
+        {
+          "type": "fill_in_the_blank",
+          "question": "A triangle has how many sides?",
+          "answer": "3"
+        }
+      ]
+    },
+    {
+      "id": "g1s_l4",
+      "title": "Color Mixing",
+      "content": "<div style='font-size:20px'>Red + Blue = Purple 🟣</div>",
+      "quiz": [
+        {
+          "type": "true_false",
+          "question": "Mixing red and blue makes purple.",
+          "answer": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "grade": 3,
+    "subjectId": "science",
+    "label": "Basic Science 🔬",
+    "description": "Simple facts about life science and the earth."
+  },
+  "lessons": [
+    {
+      "id": "g3s_l1",
+      "title": "Plants need water",
+      "content": "<p>Plants need soil, water and sunlight to grow.</p>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "What do plants need to grow?",
+          "options": ["Sunlight", "Candy", "Shoes"],
+          "answer": "Sunlight"
+        }
+      ]
+    },
+    {
+      "id": "g3s_l2",
+      "title": "Animals need food",
+      "content": "<p>Animals eat plants or other animals to get energy.</p>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "What do animals eat?",
+          "options": ["Food", "Toys", "Books"],
+          "answer": "Food"
+        }
+      ]
+    },
+    {
+      "id": "g3s_l3",
+      "title": "Earth has rocks and soil",
+      "content": "<p>The Earth is made of rocks, soil, and water.</p>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "What is the Earth made of?",
+          "options": ["Rocks", "Air", "Clouds"],
+          "answer": "Rocks"
+        }
+      ]
+    },
+    {
+      "id": "g3s_l4",
+      "title": "Weather changes daily",
+      "content": "<p>Weather can be sunny, rainy, or snowy.</p>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "What is weather?",
+          "options": ["Sunny", "Rainy", "Both"],
+          "answer": "Both"
+        }
+      ]
+    },
+    {
+      "id": "g3s_l5",
+      "title": "Simple machines help us",
+      "content": "<p>Simple machines like levers and pulleys make work easier.</p>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "What do simple machines do?",
+          "options": ["Make work harder", "Make work easier", "Do nothing"],
+          "answer": "Make work easier"
+        }
+      ]
+    
+    },
+    {
+      "id": "g3s_l6",
+      "title": "Habitats for animals",
+      "content": "<p>Animals live in different habitats like forests, oceans, and deserts.</p>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "Where do animals live?",
+          "options": ["In houses", "In habitats", "In schools"],
+          "answer": "In habitats"
+        }
+      ]
+    },
+    {
+      "id": "g3s_l7",
+      "title": "Recycling helps the Earth",
+      "content": "<p>Recycling means using materials again to help the Earth.</p>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "What does recycling do?",
+          "options": ["Helps the Earth", "Makes trash", "Uses more resources"],
+          "answer": "Helps the Earth"
+        }
+      ]
+    }
+  ]
+}

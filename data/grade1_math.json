@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "grade": 1,
+    "subjectId": "basic_math",
+    "label": "Basic Addition & Subtraction ➕➖",
+    "description": "Simple operations with small numbers."
+  },
+  "lessons": [
+    {
+      "id": "g1m_l1",
+      "title": "Add within 10",
+      "content": "<div style='font-size:22px'>3 + 2 = ?</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "3 + 2 = ?",
+          "options": ["4", "5", "6"],
+          "answer": "5"
+        }
+      ]
+    },
+    {
+      "id": "g1m_l2",
+      "title": "Subtract within 10",
+      "content": "<div style='font-size:22px'>7 - 4 = ?</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "7 - 4 = ?",
+          "options": ["2", "3", "4"],
+          "answer": "3"
+        }
+      ]
+    },
+    {
+      "id": "g1m_l3",
+      "title": "Add within 20",
+      "content": "<div style='font-size:22px'>8 + 5 = ?</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "8 + 5 = ?",
+          "options": ["12", "13", "14"],
+          "answer": "13"
+        }
+      ]
+    },
+    {
+      "id": "g1m_l4",
+      "title": "Subtract within 20",
+      "content": "<div style='font-size:22px'>15 - 6 = ?</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "15 - 6 = ?",
+          "options": ["7", "8", "9"],
+          "answer": "9"
+        }
+      ]
+    },
+    {
+      "id": "g1m_l5",
+      "title": "Word Problems",
+      "content": "<div style='font-size:22px'>If you have 3 apples and get 2 more, how many do you have?</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "How many apples do you have?",
+          "options": ["4", "5", "6"],
+          "answer": "5"
+        }
+      ]
+    }
+  ]
+}

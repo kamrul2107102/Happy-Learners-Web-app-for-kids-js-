@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "grade": 2,
+    "subjectId": "math",
+    "label": "Math (3-digit & Times) ✖️",
+    "description": "3-digit addition, basic multiplication and mental math."
+  },
+  "lessons": [
+    {
+      "id": "g2m_l1",
+      "title": "3-digit addition",
+      "content": "<div style='font-size:20px'>123 + 456 = ?</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "123 + 456 = ?",
+          "options": ["579", "589", "599"],
+          "answer": "579"
+        }
+      ]
+    },
+    {
+      "id": "g2m_l2",
+      "title": "Multiplication basics",
+      "content": "<div style='font-size:20px'>3 × 4 = ?</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "3 × 4 = ?",
+          "options": ["7", "12", "9"],
+          "answer": "12"
+        }
+      ]
+    },
+    {
+      "id": "g2m_l3",
+      "title": "Mental math with 2-digit numbers",
+      "content": "<div style='font-size:20px'>45 + 32 = ?</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "45 + 32 = ?",
+          "options": ["77", "78", "79"],
+          "answer": "77"
+        }
+      ]
+    },
+    {
+      "id": "g2m_l4",
+      "title": "Multiplication tables (1-5)",
+      "content": "<div style='font-size:20px'>2 × 3 = ?</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "2 × 3 = ?",
+          "options": ["5", "6", "7"],
+          "answer": "6"
+        }
+      ]
+    },
+    {
+      "id": "g2m_l5",
+      "title": "Word problems with addition",
+      "content": "<div style='font-size:20px'>If you have 10 apples and buy 5 more, how many do you have?</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "10 + 5 = ?",
+          "options": ["14", "15", "16"],
+          "answer": "15"
+        }
+      ]
+    },
+    {
+      "id": "g2m_l6",
+      "title": "Word problems with multiplication",
+      "content": "<div style='font-size:20px'>If each box has 4 toys and you have 3 boxes, how many toys do you have?</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "3 × 4 = ?",
+          "options": ["10", "11", "12"],
+          "answer": "12"
+        }
+      ]
+    },
+    {
+      "id": "g2m_l7",
+      "title": "Adding 3-digit numbers",
+      "content": "<div style='font-size:20px'>234 + 567 + 123 = ?</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "234 + 567 + 123 = ?",
+          "options": ["924", "925", "926"],
+          "answer": "924"
+        }
+      ]
+    },
+    {
+      "id": "g2m_l8",
+      "title": "Multiplication with larger numbers",
+      "content": "<div style='font-size:20px'>6 × 7 = ?</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "6 × 7 = ?",
+          "options": ["41", "42", "43"],
+          "answer": "42"
+        }
+      ]
+    }
+  ]
+}

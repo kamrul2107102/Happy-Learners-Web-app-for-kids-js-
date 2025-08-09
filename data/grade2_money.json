@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "grade": 2,
+    "subjectId": "money",
+    "label": "Money & Counting 💵",
+    "description": "Recognize coins and count money."
+  },
+  "lessons": [
+    {
+      "id": "g2mon_l1",
+      "title": "Coins",
+      "content": "<div>Penny (1¢), Nickel (5¢), Dime (10¢), Quarter (25¢)</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "Which coin is worth 25 cents?",
+          "options": ["Penny", "Dime", "Quarter"],
+          "answer": "Quarter"
+        }
+      ]
+    },
+    {
+      "id": "g2mon_l2",
+      "title": "Counting money",
+      "content": "<div>Count combinations of coins.</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "10¢ + 10¢ = ?",
+          "options": ["10¢", "20¢", "25¢"],
+          "answer": "20¢"
+        }
+      ]
+    },
+    {
+      "id": "g2mon_l3",
+      "title": "Making change",
+      "content": "<div>How to give change for purchases.</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "If a toy costs 30¢ and you pay with a 50¢ coin, how much change do you get?",
+          "options": ["10¢", "20¢", "30¢"],
+          "answer": "20¢"
+        }
+      ]
+    },
+    {
+      "id": "g2mon_l4",
+      "title": "Shopping with money",
+      "content": "<div>Practice buying items with coins.</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "If you buy a toy for 40¢ and have 50¢, how much money do you have left?",
+          "options": ["10¢", "20¢", "30¢"],
+          "answer": "10¢"
+        }
+      ]
+    },
+    {
+      "id": "g2mon_l5",
+      "title": "Saving money",
+      "content": "<div>Learn about saving coins in a piggy bank.</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "If you save 5¢ every day, how much do you save in a week?",
+          "options": ["25¢", "30¢", "35¢"],
+          "answer": "35¢"
+        }
+      ]
+    }
+  ]
+}

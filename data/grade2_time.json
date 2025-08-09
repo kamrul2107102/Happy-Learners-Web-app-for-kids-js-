@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "grade": 2,
+    "subjectId": "telling_time",
+    "label": "Telling Time ⏰",
+    "description": "Read analog and digital clocks."
+  },
+  "lessons": [
+    {
+      "id": "g2t_l1",
+      "title": "Hours and Minutes",
+      "content": "<div>When the short hand is on 4 and the long hand on 12, it's 4:00.</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "Short hand on 3, long hand on 12 — time is?",
+          "options": ["3:00", "12:30", "6:00"],
+          "answer": "3:00"
+        }
+      ]
+    },
+    {
+      "id": "g2t_l2",
+      "title": "Reading Analog Clocks",
+      "content": "<div>Learn to read the hour and minute hands on analog clocks.</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "What time is shown if the short hand is on 6 and long hand on 3?",
+          "options": ["6:15", "6:30", "6:45"],
+          "answer": "6:15"
+        }
+      ]
+    },
+    {
+      "id": "g2t_l3",
+      "title": "Reading Digital Clocks",
+      "content": "<div>Digital clocks show time in numbers, like 7:30.</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "What does 8:45 mean?",
+          "options": ["8 hours and 45 minutes", "8 minutes past 45", "8:45 AM"],
+          "answer": "8:45 AM"
+        }
+      ]
+    },
+    {
+      "id": "g2t_l4",
+      "title": "Time Intervals",
+      "content": "<div>Understanding how long it takes between times.</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "If it's 2:00 now, what time will it be in 30 minutes?",
+          "options": ["2:30", "3:00", "1:30"],
+          "answer": "2:30"
+        }
+      ]
+    },
+    {
+      "id": "g2t_l5",
+      "title": "AM and PM",
+      "content": "<div>AM is morning, PM is afternoon/evening.</div>",
+      "quiz": [
+        {
+          "type": "multiple_choice",
+          "question": "Is 10:00 AM morning or evening?",
+          "options": ["Morning", "Evening", "Night"],
+          "answer": "Morning"
+        }
+      ]
+    }
+  ]
+}
